@@ -23,7 +23,7 @@ class AuthController extends GetxController {
         Uri.parse('https://mediadwi.com/api/latihan/login'),
         body: {
           'username': usn,
-          'password': pw,
+          'password': pw, 
         },
       );
 
