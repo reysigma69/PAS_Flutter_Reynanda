@@ -22,8 +22,8 @@ class AuthController extends GetxController {
       final response = await http.post(
         Uri.parse('https://mediadwi.com/api/latihan/login'),
         body: {
-          'username': admin123,
-          'password': admin123,
+          'username': usn,
+          'password': pw,
         },
       );
 
